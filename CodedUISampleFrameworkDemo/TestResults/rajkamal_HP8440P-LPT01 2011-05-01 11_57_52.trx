@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6d4565b3-02e9-4cd9-9d2a-df6977fe66fa" name="rajkamal@HP8440P-LPT01 2011-05-01 11:57:52" runUser="FAREAST\rajkamal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9a68ab79-59e1-4974-8c65-7b7f220df17d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="rajkamal_HP8440P-LPT01 2011-05-01 11_57_52" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-01T11:57:52.7638895+03:00" queuing="2011-05-01T11:57:53.0580071+03:00" start="2011-05-01T11:57:53.0870187+03:00" finish="2011-05-01T11:58:13.6512411+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HP8440P-LPT01" outcome="Warning" timestamp="2011-05-01T11:57:52.9209523+03:00">
+        <Text>Deployment is currently disabled. The deployment item 'CodedUISampleFramework\TestData\SearchData.csv' on test 'CodedUISampleFramework.Scripts.BasicSearchScripts.SearchTextMany' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SearchTextMany" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="0b46a3f8-3876-c46b-6958-eb1bda51de92">
+      <Description>This test will search many search strings</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="CodedUISampleFramework\TestData\SearchData.csv" />
+      </DeploymentItems>
+      <Execution id="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12341</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchTextMany" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="SearchData#csv" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" executionId="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:00:20.1197261" startTime="2011-05-01T11:57:53.1150299+03:00" endTime="2011-05-01T11:58:13.5672075+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="ea8f2a42-eabb-4489-89c8-c1cee4953f28" parentExecutionId="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:00:19.8824557" startTime="2011-05-01T11:57:53.5672107+03:00" endTime="2011-05-01T11:58:13.4621655+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Initialize</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c9647411-a194-4df3-9b68-5ba384c47a7d" parentExecutionId="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:00:00.0743582" startTime="2011-05-01T11:58:13.4621655+03:00" endTime="2011-05-01T11:58:13.5371955+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Initialize</StdOut>
+            <ErrorInfo>
+              <Message>Initialization method CodedUISampleFramework.Scripts.BasicSearchScripts.MyTestInitialize threw exception. System.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception: Access is denied.</Message>
+              <StackTrace>    at System.Diagnostics.Process.Kill()
+   at CodedUISampleFramework.Library.Browser.CloseAllBrowsers() in D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\Library\Utilities\Browser.cs:line 62
+   at CodedUISampleFramework.Scripts.BingScriptsBase.MyTestInitialize() in D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\Scripts\BingScriptsBase.cs:line 41
+   at CodedUISampleFramework.Scripts.BasicSearchScripts.MyTestInitialize() in D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\Scripts\BasicSearchScripts.cs:line 33
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="f84a17ae-cb93-4743-8040-8956020d0541" parentExecutionId="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:00:00.0156434" startTime="2011-05-01T11:58:13.5371955+03:00" endTime="2011-05-01T11:58:13.5522015+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aec40cbf-1089-4d8e-a96a-c7c7e9d1bfaa" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Initialize</StdOut>
+            <ErrorInfo>
+              <Message>Initialization method CodedUISampleFramework.Scripts.BasicSearchScripts.MyTestInitialize threw exception. System.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception: Access is denied.</Message>
+              <StackTrace>    at System.Diagnostics.Process.Kill()
+   at CodedUISampleFramework.Library.Browser.CloseAllBrowsers() in D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\Library\Utilities\Browser.cs:line 62
+   at CodedUISampleFramework.Scripts.BingScriptsBase.MyTestInitialize() in D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\Scripts\BingScriptsBase.cs:line 41
+   at CodedUISampleFramework.Scripts.BasicSearchScripts.MyTestInitialize() in D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\Scripts\BasicSearchScripts.cs:line 33
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4b5facdb-288e-4eca-b1e5-b42339367ead" name="rajkamal@HP8440P-LPT01 2011-05-01 11:52:33" runUser="FAREAST\rajkamal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9a68ab79-59e1-4974-8c65-7b7f220df17d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="rajkamal_HP8440P-LPT01 2011-05-01 11_52_33" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-01T11:52:33.9554171+03:00" queuing="2011-05-01T11:52:34.2165215+03:00" start="2011-05-01T11:52:34.2485343+03:00" finish="2011-05-01T11:53:44.8417603+03:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="3" executed="3" passed="1" error="0" failed="0" timeout="0" aborted="2" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HP8440P-LPT01" outcome="Warning" timestamp="2011-05-01T11:52:34.0954731+03:00">
+        <Text>Deployment is currently disabled. The deployment item 'CodedUISampleFramework\TestData\SearchData.csv' on test 'CodedUISampleFramework.Scripts.BasicSearchScripts.SearchTextMany' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SearchTextMany" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="0b46a3f8-3876-c46b-6958-eb1bda51de92">
+      <Description>This test will search many search strings</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="CodedUISampleFramework\TestData\SearchData.csv" />
+      </DeploymentItems>
+      <Execution id="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12341</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchTextMany" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="SearchData#csv" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" executionId="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:00:54.4437688" startTime="2011-05-01T11:52:34.2565375+03:00" endTime="2011-05-01T11:53:28.7003063+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" resultType="DataDrivenTest">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+      <Counters error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="dec74165-074e-4d34-84a4-f95698c20dde" parentExecutionId="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:00:35.1262353" startTime="2011-05-01T11:52:35.3649807+03:00" endTime="2011-05-01T11:53:10.5110335+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Initialize</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="2447db18-1edb-4ab5-ad57-6dedb49ac837" parentExecutionId="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:00:18.1143606" startTime="2011-05-01T11:53:10.5110335+03:00" endTime="2011-05-01T11:53:28.6812987+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b7dc31-3a58-44be-bc3b-b20e3825b83e" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Initialize</StdOut>
+            <ErrorInfo>
+              <Message>The test was aborted due to user request or timeout.</Message>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

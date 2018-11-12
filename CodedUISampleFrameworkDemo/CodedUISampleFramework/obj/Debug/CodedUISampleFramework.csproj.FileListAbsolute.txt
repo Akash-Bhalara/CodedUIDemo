@@ -1,0 +1,35 @@
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.dll
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\TestData\SearchData.csv
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\ResolveAssemblyReference.cache
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.dll
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.pdb
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.dll.config
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.pdb
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.Resources.SearchResource.resources
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\GenerateResource.read.1.tlog
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\GenerateResource.write.1.tlog
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\TestData\SearchResultsText.csv
+D:\Samples\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.Resources.PlaybackConfiguration.resources
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\TestData\SearchResultsText.csv
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\TestData\SearchData.csv
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.dll.config
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.dll
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.pdb
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\ResolveAssemblyReference.cache
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.Resources.PlaybackConfiguration.resources
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.Resources.SearchResource.resources
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\GenerateResource.read.1.tlog
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\GenerateResource.write.1.tlog
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.dll
+D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.pdb
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\bin\Debug\TestData\SearchResultsText.csv
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\bin\Debug\TestData\SearchData.csv
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.dll.config
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.dll
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.pdb
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.Resources.PlaybackConfiguration.resources
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.Resources.SearchResource.resources
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.csproj.GenerateResource.Cache
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.dll
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.pdb
+E:\E-Books & Library\MY R & D\Coded UI Sample Framework\CodedUISampleFramework\obj\Debug\CodedUISampleFramework.csprojResolveAssemblyReference.cache

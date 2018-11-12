@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2c24d546-d033-4780-b01a-fdb6eaf17bde" name="rajkamal@HP8440P-LPT01 2011-05-01 21:07:36" runUser="FAREAST\rajkamal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9a68ab79-59e1-4974-8c65-7b7f220df17d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="rajkamal_HP8440P-LPT01 2011-05-01 21_07_36" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-01T21:07:36.8725555+03:00" queuing="2011-05-01T21:07:37.0348147+03:00" start="2011-05-01T21:07:37.1339731+03:00" finish="2011-05-01T21:07:37.2191091+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HP8440P-LPT01" outcome="Warning" timestamp="2011-05-01T21:07:37.0338131+03:00">
+        <Text>Deployment is currently disabled. The deployment item 'CodedUISampleFramework\TestData\SearchData.csv' on test 'CodedUISampleFramework.Scripts.BasicSearchScripts.SearchTextMany' was not deployed.</Text>
+      </RunInfo>
+      <RunInfo computerName="HP8440P-LPT01" outcome="Warning" timestamp="2011-05-01T21:07:37.1349747+03:00">
+        <Text>Assembly resolution configuration settings could not be read from 'D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.DLL.config'. Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 2, position 3. (D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.DLL.config line 2)</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SearchTextMany" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="0b46a3f8-3876-c46b-6958-eb1bda51de92">
+      <Description>This test will search many search strings</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="CodedUISampleFramework\TestData\SearchData.csv" />
+      </DeploymentItems>
+      <Execution id="7e95ab21-7c58-4732-b3e0-7c9271856e12" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12341</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchTextMany" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="SearchData#csv" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" executionId="7e95ab21-7c58-4732-b3e0-7c9271856e12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7e95ab21-7c58-4732-b3e0-7c9271856e12" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" startTime="2011-05-01T21:07:37.0548467+03:00" endTime="2011-05-01T21:07:37.2120979+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e95ab21-7c58-4732-b3e0-7c9271856e12">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 2, position 3. (D:\raj\raj backup\VS 2010\Automation Guidance MGSI\Review\CodedUISampleFramework\CodedUISampleFramework\bin\Debug\CodedUISampleFramework.DLL.config line 2)
+Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 2, position 3..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

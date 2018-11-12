@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ea0fed87-7ed8-45a2-8c50-b6049a8eb439" name="rajkamal@HP8440P-LPT01 2011-05-01 11:54:05" runUser="FAREAST\rajkamal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9a68ab79-59e1-4974-8c65-7b7f220df17d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="rajkamal_HP8440P-LPT01 2011-05-01 11_54_05" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-01T11:54:05.5370351+03:00" queuing="2011-05-01T11:54:07.1866947+03:00" start="2011-05-01T11:54:07.3737695+03:00" finish="2011-05-01T11:57:09.5095947+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HP8440P-LPT01" outcome="Error" timestamp="2011-05-01T11:57:09.5075939+03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyRelatedSearchesLinks" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="ab3d126d-fd41-131c-70e9-27a9e20a59e0">
+      <Description>This test will Verify Related Searches for a Search Condition</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <Execution id="72fc9919-2f64-43f9-a459-086e284008d6" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12344</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyRelatedSearchesLinks" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="SearchText" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="cae7574d-2e46-d48b-5c14-fc3b274dbf76">
+      <Description>This test is to test that the search string is displayed in the second page</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <Execution id="3dc46db5-1920-4d06-b08d-35c257facda7" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12342</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchText" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="SearchTextMany" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="0b46a3f8-3876-c46b-6958-eb1bda51de92">
+      <Description>This test will search many search strings</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="CodedUISampleFramework\TestData\SearchData.csv" />
+      </DeploymentItems>
+      <Execution id="9cead840-d2a7-4a1f-bf8c-5be96f0ebcad" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12341</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchTextMany" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="SearchData#csv" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" executionId="9cead840-d2a7-4a1f-bf8c-5be96f0ebcad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cae7574d-2e46-d48b-5c14-fc3b274dbf76" executionId="3dc46db5-1920-4d06-b08d-35c257facda7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab3d126d-fd41-131c-70e9-27a9e20a59e0" executionId="72fc9919-2f64-43f9-a459-086e284008d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9cead840-d2a7-4a1f-bf8c-5be96f0ebcad" testId="0b46a3f8-3876-c46b-6958-eb1bda51de92" testName="SearchTextMany" computerName="HP8440P-LPT01" duration="00:03:01.9687584" startTime="2011-05-01T11:54:07.5398359+03:00" endTime="2011-05-01T11:57:09.5085943+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cead840-d2a7-4a1f-bf8c-5be96f0ebcad">
+    </UnitTestResult>
+    <UnitTestResult executionId="3dc46db5-1920-4d06-b08d-35c257facda7" testId="cae7574d-2e46-d48b-5c14-fc3b274dbf76" testName="SearchText" computerName="HP8440P-LPT01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dc46db5-1920-4d06-b08d-35c257facda7">
+    </UnitTestResult>
+    <UnitTestResult executionId="72fc9919-2f64-43f9-a459-086e284008d6" testId="ab3d126d-fd41-131c-70e9-27a9e20a59e0" testName="VerifyRelatedSearchesLinks" computerName="HP8440P-LPT01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72fc9919-2f64-43f9-a459-086e284008d6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

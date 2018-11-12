@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3699b867-568c-416d-aca9-38fef2852e89" name="rajkamal@HP8440P-LPT01 2011-05-01 10:39:21" runUser="FAREAST\rajkamal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9a68ab79-59e1-4974-8c65-7b7f220df17d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="rajkamal_HP8440P-LPT01 2011-05-01 10_39_21" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-01T10:39:21.0389531+03:00" queuing="2011-05-01T10:39:22.7436347+03:00" start="2011-05-01T10:39:22.8486767+03:00" finish="2011-05-01T10:39:45.7858479+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SearchText" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="cae7574d-2e46-d48b-5c14-fc3b274dbf76">
+      <Description>This test is to test that the search string is displayed in the second page</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <Execution id="9f189257-62c2-4a5f-a61c-2a46c8705def" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12342</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchText" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cae7574d-2e46-d48b-5c14-fc3b274dbf76" executionId="9f189257-62c2-4a5f-a61c-2a46c8705def" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9f189257-62c2-4a5f-a61c-2a46c8705def" testId="cae7574d-2e46-d48b-5c14-fc3b274dbf76" testName="SearchText" computerName="HP8440P-LPT01" duration="00:00:22.3360244" startTime="2011-05-01T10:39:22.9066999+03:00" endTime="2011-05-01T10:39:45.6768043+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f189257-62c2-4a5f-a61c-2a46c8705def">
+      <Output>
+        <StdOut>Initialize</StdOut>
+        <TextMessages>
+          <Message>Test Start</Message>
+          <Message>Test Stop</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

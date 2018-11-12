@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="af1d7b78-2d4d-4197-ad5a-8703d32b24aa" name="rajkamal@HP8440P-LPT01 2011-05-01 11:27:20" runUser="FAREAST\rajkamal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9a68ab79-59e1-4974-8c65-7b7f220df17d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="rajkamal_HP8440P-LPT01 2011-05-01 11_27_20" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-01T11:27:20.8914335+03:00" queuing="2011-05-01T11:27:21.0885123+03:00" start="2011-05-01T11:27:21.1035183+03:00" finish="2011-05-01T11:27:30.7903915+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyRelatedSearchesLinks" storage="d:\raj\raj backup\vs 2010\automation guidance mgsi\review\codeduisampleframework\codeduisampleframework\bin\debug\codeduisampleframework.dll" priority="0" id="ab3d126d-fd41-131c-70e9-27a9e20a59e0">
+      <Description>This test will Verify Related Searches for a Search Condition</Description>
+      <Owners>
+        <Owner name="Viswa" />
+      </Owners>
+      <Execution id="d13ba46e-2c63-4c5c-8c6b-851ef948ea70" />
+      <Properties>
+        <Property>
+          <Key>TestcaseID</Key>
+          <Value>12344</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/raj/raj backup/VS 2010/Automation Guidance MGSI/Review/CodedUISampleFramework/CodedUISampleFramework/bin/Debug/CodedUISampleFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUISampleFramework.Scripts.BasicSearchScripts, CodedUISampleFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyRelatedSearchesLinks" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ab3d126d-fd41-131c-70e9-27a9e20a59e0" executionId="d13ba46e-2c63-4c5c-8c6b-851ef948ea70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d13ba46e-2c63-4c5c-8c6b-851ef948ea70" testId="ab3d126d-fd41-131c-70e9-27a9e20a59e0" testName="VerifyRelatedSearchesLinks" computerName="HP8440P-LPT01" duration="00:00:09.3348449" startTime="2011-05-01T11:27:21.1295287+03:00" endTime="2011-05-01T11:27:30.6983547+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d13ba46e-2c63-4c5c-8c6b-851ef948ea70">
+      <Output>
+        <StdOut>Initialize</StdOut>
+        <TextMessages>
+          <Message>Fair Testing</Message>
+          <Message>Animal Testing</Message>
+          <Message>Product Testing</Message>
+          <Message>White Box Testing</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
